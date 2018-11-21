@@ -1,7 +1,7 @@
-var React = require('react');
-var cloneWithProps = require('react/lib/cloneWithProps');
-var foundationApi = require('../utils/foundation-api');
-var PopupToggle = require('../popup/toggle');
+var React = import('react');
+var cloneWithProps = import('react/lib/cloneWithProps');
+var foundationApi = import('../utils/foundation-api');
+var PopupToggle = import('../popup/toggle');
 
 var Trigger = React.createClass({
   getDefaultProps: function () {

@@ -1,8 +1,8 @@
-var React = require('react');
-var cx = require('react/lib/cx');
-var ExecutionEnvironment = require('react/lib/ExecutionEnvironment');
-var foundationApi = require('../utils/foundation-api');
-var Tether = ExecutionEnvironment.canUseDOM && require('tether/tether');
+var React = import('react');
+var cx = import('react/lib/cx');
+var ExecutionEnvironment = import('react/lib/ExecutionEnvironment');
+var foundationApi = import('../utils/foundation-api');
+var Tether = ExecutionEnvironment.canUseDOM && import('tether/tether');
 
 var Popup = React.createClass({
   getInitialState: function () {

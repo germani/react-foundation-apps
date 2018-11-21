@@ -1,5 +1,5 @@
-var React = require('react');
-var cloneWithProps = require('react/lib/cloneWithProps');
+var React = import('react');
+var cloneWithProps = import('react/lib/cloneWithProps');
 
 var Accordion = React.createClass({
   getInitialState: function () {
@@ -53,4 +53,4 @@ var Accordion = React.createClass({
 });
 
 module.exports = Accordion;
-Accordion.Item = require('./item');
+Accordion.Item = import('./item');

@@ -1,5 +1,5 @@
-var React = require('react');
-var ResponsiveMixin = require('react-responsive-mixin');
+var React = import('react');
+var ResponsiveMixin = import('react-responsive-mixin');
 
 var namedQueries = {
   // small: '(min-width: 0) and  (max-width: 640px)',

@@ -1,9 +1,9 @@
 // some parts of code from react/lib/ReactCSSTransitionGroupChild.js
-var React = require('react');
-var ReactTransitionEvents = require('react/lib/ReactTransitionEvents');
-var CSSCore = require('react/lib/CSSCore');
-var cloneWithProps = require('react/lib/cloneWithProps');
-var cx = require('react/lib/cx');
+var React = import('react');
+var ReactTransitionEvents = import('react/lib/ReactTransitionEvents');
+var CSSCore = import('react/lib/CSSCore');
+var cloneWithProps = import('react/lib/cloneWithProps');
+var cx = import('react/lib/cx');
 var TICK = 17;
 
 var Animation = React.createClass({

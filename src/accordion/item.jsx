@@ -1,5 +1,5 @@
-var React = require('react');
-var cx = require('react/lib/cx');
+var React = import('react');
+var cx = import('react/lib/cx');
 
 var AccordionItem = React.createClass({
   render: function () {

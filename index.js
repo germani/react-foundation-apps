@@ -1,13 +1,15 @@
-module.exports = {
-  Accordion: require('./lib/accordion'),
-  ActionSheet: require('./lib/action-sheet'),
-  Iconic: require('./lib/iconic'),
-  Interchange: require('./lib/interchange'),
-  Modal: require('./lib/modal'),
-  Notification: require('./lib/notification'),
-  OffCanvas: require('./lib/offcanvas'),
-  Panel: require('./lib/panel'),
-  Popup: require('./lib/popup'),
-  Tabs: require('./lib/tabs'),
-  Trigger: require('./lib/trigger'),
+const RFA = {
+  Accordion: import('./src/accordion'),
+  ActionSheet: import('./src/action-sheet'),
+  Iconic: import('./src/iconic'),
+  Interchange: import('./src/interchange'),
+  Modal: import('./src/modal'),
+  Notification: import('./src/notification'),
+  OffCanvas: import('./src/offcanvas'),
+  Panel: import('./src/panel'),
+  Popup: import('./src/popup'),
+  Tabs: import('./src/tabs'),
+  Trigger: import('./src/trigger')
 };
+
+export default RFA;

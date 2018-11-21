@@ -1,6 +1,6 @@
-var React = require('react');
-var foundationApi = require('../utils/foundation-api');
-var cloneWithProps = require('react/lib/cloneWithProps');
+var React = import('react');
+var foundationApi = import('../utils/foundation-api');
+var cloneWithProps = import('react/lib/cloneWithProps');
 
 var PopupToggle = React.createClass({
   clickHandler: function (id, e) {

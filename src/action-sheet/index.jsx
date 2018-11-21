@@ -1,6 +1,6 @@
-var React = require('react');
-var cloneWithProps = require('react/lib/cloneWithProps');
-var foundationApi = require('../utils/foundation-api');
+var React = import('react');
+var cloneWithProps = import('react/lib/cloneWithProps');
+var foundationApi = import('../utils/foundation-api');
 
 var ActionSheet = React.createClass({
   getInitialState: function () {
@@ -60,5 +60,5 @@ var ActionSheet = React.createClass({
 });
 
 module.exports = ActionSheet;
-ActionSheet.Button = require('./button');
-ActionSheet.Content = require('./content');
+ActionSheet.Button = import('./button');
+ActionSheet.Content = import('./content');

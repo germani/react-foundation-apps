@@ -1,5 +1,5 @@
-var helpers = require('./mq-helpers');
-var foundationApi = require('./foundation-api');
+var helpers = import('./mq-helpers');
+var foundationApi = import('./foundation-api');
 
 function init() {
   var mediaQueries;

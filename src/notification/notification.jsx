@@ -1,4 +1,4 @@
-var React = require('react');
+var React = import('react');
 
 var Notification = React.createClass({
   getDefaultProps: function () {

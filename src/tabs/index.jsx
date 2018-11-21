@@ -1,5 +1,5 @@
-var React = require('react');
-var cloneWithProps = require('react/lib/cloneWithProps');
+var React = import('react');
+var cloneWithProps = import('react/lib/cloneWithProps');
 
 var Tabs = React.createClass({
   getInitialState: function () {
@@ -29,4 +29,4 @@ var Tabs = React.createClass({
 });
 
 module.exports = Tabs;
-Tabs.Tab = require('./tab');
+Tabs.Tab = import('./tab');

@@ -1,6 +1,6 @@
 //From https://github.com/zurb/foundation-apps/blob/master/js/angular/common/common.services.js
-var PubSub = require('pubsub-js');
-var assign = require('object-assign');
+var PubSub = import('pubsub-js');
+var assign = import('object-assign');
 
 var listeners = [];
 var settings  = {};
